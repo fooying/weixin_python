@@ -1,0 +1,10 @@
+$def with (post)
+<?xml version="1.0"?>
+<xml>
+<ToUserName><![CDATA[$post['ToUserName']]]></ToUserName>
+<FromUserName><![CDATA[$post['FromUserName']]]></FromUserName>
+<CreateTime>$post['CreateTime']</CreateTime>
+<MsgType><![CDATA[$post['MsgType']]]></MsgType>
+<Content><![CDATA[$post['Content']]]></Content>
+<FuncFlag>$post['FuncFlag']</FuncFlag>
+</xml>
